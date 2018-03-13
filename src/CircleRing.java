@@ -7,9 +7,9 @@ import org.jointheleague.graphical.robot.Robot;
 
 public class CircleRing {
     public static void main(String[] args) throws Exception {
-
+    	Robot jeff =new Robot();
         // 1. Make a new Robot
-
+jeff.moveTo(150,200);
 
        //  2. Set your robot’s position to x=150 and y=200
 
@@ -25,6 +25,7 @@ public class CircleRing {
 
         // 8. If the counter i is divisible by 20 (hint: use mod operator  %)..
 
+    			
 		// 9. do steps 10 and 11 exactly 360 times (use j as the counter)
 
 				// 10. Move the robot 1 pixel
