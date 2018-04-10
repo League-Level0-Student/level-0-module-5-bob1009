@@ -1,4 +1,5 @@
 
+
 /*
  *    Copyright (c) The League of Amazing Programmers 2013-2017
  *    Level 0
@@ -28,13 +29,12 @@ public class GuessingPi {
 			
 		
 	String question=JOptionPane.showInputDialog("what is the "+i+"th digit of pi?");
-		if (question.equals(value.charAt(i))) {
-			JOptionPane.showInputDialog("CORRECT!!!!!!!!!!!!!!!!");
-			JOptionPane.showInputDialog(" what is the "+i+"th digit of pi?");
+		if (question.equals(""+value.charAt(i))) {
+			JOptionPane.showMessageDialog(null,"CORRECT!!!!!!!!!!!!!!!!");
 		
 		}
 		else {
-			JOptionPane.showMessageDialog(null, "nope,try again");
+			JOptionPane.showMessageDialog(null, "nope");
 		break;
 		}
 		}
